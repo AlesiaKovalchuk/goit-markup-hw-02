@@ -135,7 +135,7 @@
 }
 .footer-logo{
     background-color:var(--main-txt-cl);
-    font-family:'Raleway',sans-serif;
+    font-family:Raleway,sans-serif;
 }
 .main-buttons{
     font-weight: 500;
