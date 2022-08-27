@@ -78,7 +78,7 @@
 .basic-points {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.2x;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -138,7 +138,7 @@
     background-color:var(--main-txt-cl);
     font-family:'Raleway',sans-serif;
 }
-.buttons{
+.main-buttons{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -146,20 +146,18 @@
     letter-spacing: 0.03em;
     color:var(--main-txt-cl);
     background-color:var(--light-txt-cl);
-    
-    
+      
 }
-.buttons:hover {
-    background-color: var(--light-txt-cl);
-    color: var(--main-txt-cl);
+.main-buttons:hover {
+    background-color:var(--accent-txt-cl);
+    color: var(--light-txt-cl);
     cursor: pointer;
         /*filter:drop-shadow(0px 0 px 1 px rgba 0)*/
-    
 }
-.buttons:focus {
-    background-color:var(--accent-txt-cl);
-    color:var(--light-txt-cl);
 
+.main-buttons:focus {
+    background-color:var(--accent-txt-cl);
+    color: var(--light-txt-cl);
 }
     
 .footer-logo-link {
@@ -175,7 +173,6 @@
         font-family:Raleway,sans-serif;
         color: var(--accent-txt-cl);
         text-decoration: none;
-        font-family: var(--light-txt-cl);
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -204,4 +201,56 @@
 .footer-address-item {
     color: rgba(255, 255, 255, 0.6)
 
+}
+.list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-txt-cl);
+}
+.link-address {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--grey-txt-cl);
+}
+.link-address:hover{
+    color: var(--accent-txt-cl);
+    cursor: pointer;
+    /*filter:drop-shadow(0px 0 px 1 px rgba 0)*/
+
+}
+.link-address:focus{
+    color: var(--accent-txt-cl);
+    cursor: pointer;
+
+}
+.basic-point {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color:var(--main-txt-cl);
+}
+.point {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: var(--grey-txt-cl);
+}
+.list-item-link:hover {
+    color: var(--main-txt-cl);
+    cursor: pointer;
+    /*filter:drop-shadow(0px 0 px 1 px rgba 0)*/
+
+}
+.list-item-link:focus{
+    color: var(--accent-txt-cl);
+    cursor: pointer;
+       
 }
