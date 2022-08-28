@@ -33,6 +33,7 @@
     background-color:var(--light-txt-cl);
 }
 .header-link{
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -202,13 +203,13 @@
 
 }
 .list {
-    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-txt-cl);
 }
 .link-address {
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
